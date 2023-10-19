@@ -6,9 +6,9 @@ root.title("Klickzähler")
 root.geometry("400x400")
 root.focus()
 root.columnconfigure(0,weight=1)
-root.rowconfigure(0, weight=1)
-root.rowconfigure(1, weight=10)
-root.rowconfigure(2, weight=20)
+#root.rowconfigure(0, weight=1)
+#root.rowconfigure(1, weight=10)
+
 
 label = tk.Label(root, text="Ein Klickzähler mit tkinter")
 label.grid()

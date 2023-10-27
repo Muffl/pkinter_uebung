@@ -7,7 +7,9 @@ root.geometry("400x400")
 root.focus()
 root.columnconfigure(0,weight=1)
 root.columnconfigure(1,weight=1)
-root.resizable(width=False, height=False)
+root.maxsize(width=600, height=600)
+root.minsize(width=250, height=250)
+root.resizable(width=False, height=True)
 
 
 label = tk.Label(root, text="Ein Klickzähler mit tkinter")

@@ -13,19 +13,19 @@ root.resizable(width=False, height=True)
 
 
 label = tk.Label(root, text="Ein Klickzähler mit tkinter")
-label.grid(column=0, row=4, columnspan=2)
+label.grid(column=0, row=0, columnspan=2)
 
 button_label= ttk.Label(root, text="Klickzähler +1:")
 button_label.grid(column=0, row=1, sticky="e")
 
-button =ttk.Button(root, text="Hier klicken")
+button =ttk.Button(root, text="Hier klicken", width=20)
 button.grid(column=1, row=1, pady= 5, sticky="w")
 
-button2_label= ttk.Label(root, text="Klickzähler +5:")
+button2_label= ttk.Label(root, text="Klickzähler +10:")
 button2_label.grid(column=0, row=2, sticky="e")
 
 
-button2 =ttk.Button(root, text="Hier klicken für +5")
+button2 =ttk.Button(root, text="Hier klicken für 2", width=20)
 button2.grid(column=1, row=2, pady=5, sticky="w")
 
 root.mainloop()
